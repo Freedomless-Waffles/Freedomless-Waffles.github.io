@@ -1,0 +1,10 @@
+body{
+	backround-color:LemonChiffon; 
+}
+table, th, tr, td{
+	border: 1px black solid;
+	border-collpase:collapse;
+}
+.big{
+	font-size: 2em;
+}
