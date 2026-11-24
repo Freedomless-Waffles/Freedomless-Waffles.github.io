@@ -1,18 +1,124 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-	<title>Freedom Guy</title> 
-	<script src="validate.js"></script>
-	<link rel="icon" href="images/favicon.ico"  type="image/x-icon"  sizes="16x16 32x32 48x48">
-	<style> 
-	body{ 
-	 Background-color:#d0bdf4;
-	 Color:black;  
-	 }
-	</style>
-	</head> 
-	<body>
-
-
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Page</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; max-width: 1100px; margin: 0 auto; }
+    img { display: block; width: 100%; background: #ddd; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    p { color: #555; line-height: 1.6; margin-bottom: 0.5rem; }
+    button { padding: 0.5rem 1.5rem; border: none; border-radius: 5px; background: #333; color: #fff; cursor: pointer; }
+    nav { display: flex; gap: 1rem; }
+    nav a { text-decoration: none; color: inherit; }
+    /* Layout */
+    .c1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+    .c2 {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+    .c3 {
+      padding: 1rem;
+    }
+    .c4 {
+      padding: 1rem;
+    }
+    .c5 {
+      text-align: center;
+    }
+    .c6 {
+      display: grid;
+      grid-template-columns: 1fr 250px;
+      padding: 2rem;
+    }
+    .c7 {
+      padding: 2rem;
+    }
+    .c8 {
+      aspect-ratio: 3 / 4;
+    }
+    .c9 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 0.5rem;
+      padding: 0.5rem;
+    }
+    .c10 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 1rem;
+      padding: 0.5rem;
+    }
+    .c11 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+<header class="c1">
+  <img src="placeholder.jpg" alt="" class="c2">
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Work</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+<main class="c3">
+  <section>
+    <header class="c4">
+      <h1 class="c5">Page Heading</h1>
+    </header>
+  </section>
+  <section class="c6">
+    <div class="c7">
+      <h1>Page Heading</h1>
+      <h2>Section Heading</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <img src="placeholder.jpg" alt="" class="c8">
+  </section>
+  <h2>Section Heading</h2>
+  <div class="c9">
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+  </div>
+  <h2>Section Heading</h2>
+  <div class="c10">
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+  </div>
+</main>
+<footer class="c11">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+</footer>
+  <script>
+  (function() {
+    var s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/gh/gracehoppercenter/validate@1.0.5/validate.js";
+    s.async = false;
+    document.head.appendChild(s);
+  })();
+  </script>
+</body>
 </html>
